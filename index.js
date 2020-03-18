@@ -22,5 +22,11 @@ function deepestChild(){
   let node = document.getElemendById(`grand-node`)
   let nextNode = node.children[0]
   
-  
+  while (nextNode) {
+    node = nextNode;
+    nextNode = node.children[0];
+  }
+
+  return node;
+}
 }
