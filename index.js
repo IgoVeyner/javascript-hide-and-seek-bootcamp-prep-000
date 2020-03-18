@@ -20,5 +20,7 @@ function increaseRankBy(n) {
 
 function deepestChild(){
   let node = document.getElemendById(`grand-node`)
-  let nextNode = 
+  let nextNode = node.children[0]
+  
+  
 }
